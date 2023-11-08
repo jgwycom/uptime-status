@@ -7,11 +7,19 @@
 ## 事先准备
 
 - 您需要先到 [UptimeRobot](https://uptimerobot.com/ "UptimeRobot") 添加站点监控，并在 My Settings 页面获取 API Key
+- 
+- 获取API页面
+https://uptimerobot.com/api/
+
+<img width="1152" alt="image" src="https://jgwy.com/img/20231108102525.png">
+<img width="1152" alt="image" src="https://jgwy.com/img/20231108102547.png">
+<img width="1152" alt="image" src="https://jgwy.com/img/20231108102555.png">
+
 - 您需要拥有一个网站空间，常见的 Nginx / PHP 等空间即可，甚至是阿里云的 OSS 等纯静态空间也行
 
 ## 如何部署：
 
-- 下载并解压缩：[uptime-status.zip](https://github.com/jgwycom/uptime-status/blob/master/uptime-status.zip "uptime-status.zip") 
+- 下载并解压缩：[uptime-status.zip](https://jgwy.com/img/uptime-status.zip "uptime-status.zip") 
 - 修改 `config.js` 文件：
    - `SiteName`: 要显示的网站名称
    - `ApiKeys`: 从 UptimeRobot 获取的 API Key，支持 Monitor-Specific API Keys 和 Read-Only API Key
